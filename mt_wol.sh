@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-ip_main="10.0.0.1" # IP микротика, с которого будем запускать WoL
+ip_mt=" " # IP микротика, с которого будем запускать WoL
 COLOR0="echo -e \\033[1;32m" # Green color
 COLOR1="echo -e \\033[0;39m" # Standart color
 username=" " # SSH user
