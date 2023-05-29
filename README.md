@@ -1,6 +1,6 @@
 # wol_mikrotik
 
-Рассылает Wake-on-LAN пакеты по хостам между различными VLAN.
+Рассылает Wake-on-LAN пакеты по хостам между различными VLAN c Mikrotik-устройства.
 
 ## How-to
 ```bash
