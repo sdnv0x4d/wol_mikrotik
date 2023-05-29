@@ -15,5 +15,5 @@ for data in ${mac_list[*]} # Получаем все значения из ма�
     ${COLOR0}
       echo "start wol to ${wol_cmd[1]} on ${wol_cmd[0]} interface"
     ${COLOR1}
-    ssh ${username}@$ip_main -o "StrictHostKeyChecking no" -p 22 "${cmd}" # SSH-подключение и выполнение команды
+    ssh ${username}@$ip_mt -o "StrictHostKeyChecking no" -p 22 "${cmd}" # SSH-подключение и выполнение команды
   done
