@@ -29,7 +29,7 @@ ssh_cmd(){  # Подключение к Mikrtoik и выполнение wol
   ${COLOR0}
     echo "start Wake On LAN"
   ${COLOR1}
-  echo "ssh ${username}@$ip_mt -o "StrictHostKeyChecking no" -p 22 "${cmd_array[*]}" &>/dev/null" # SSH-подключение и выполнение команд из массива cmd_array без вывода в stdout
+  ssh ${username}@$ip_mt -o "StrictHostKeyChecking no" -p 22 "${cmd_array[*]}" &>/dev/null # SSH-подключение и выполнение команд из массива cmd_array без вывода в stdout
 }
 
 main(){
