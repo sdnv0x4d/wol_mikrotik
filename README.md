@@ -15,7 +15,7 @@ h     Help
 
  - Установка соединения с Mikrotik по SSH-ключу
  - Наличие доступа Mikrotik к необходимым VLAN
- - Указать переменную `username`
+ - Указать переменную `username` и `ip_mt`
  - Описать переменную `mac_list` вида InterfaceVLAN-MAC, разделителем является "-"
  - Или создать список InterfaceVLAN-MAC в отдельном файле, пример файла - `mac_list.example`
 
